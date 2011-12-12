@@ -24,6 +24,7 @@ Jeweler::Tasks.new do |gem|
   gem.version     = Omniauth::Xing::VERSION
   gem.add_dependency 'omniauth-oauth', '~> 1.0.0'
   gem.add_dependency 'multi_json'
+  gem.files.exclude 'Gemfile.lock'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
