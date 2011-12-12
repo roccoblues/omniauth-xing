@@ -1,5 +1,6 @@
 source "http://rubygems.org"
 
+gem 'multi_json'
 gem 'omniauth-oauth', '~> 1.0.0'
 
 group :development do

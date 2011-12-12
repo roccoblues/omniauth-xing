@@ -23,6 +23,7 @@ Jeweler::Tasks.new do |gem|
   gem.authors     = ["Dennis Schoen"]
   gem.version     = Omniauth::Xing::VERSION
   gem.add_dependency 'omniauth-oauth', '~> 1.0.0'
+  gem.add_dependency 'multi_json'
 end
 Jeweler::RubygemsDotOrgTasks.new
 

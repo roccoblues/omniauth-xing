@@ -7,6 +7,7 @@ GEM
       bundler (~> 1.0)
       git (>= 1.2.5)
       rake
+    multi_json (1.0.4)
     oauth (0.4.5)
     omniauth (1.0.1)
       hashie (~> 1.2)
@@ -25,6 +26,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.0.0)
   jeweler (~> 1.6.4)
+  multi_json
   omniauth-oauth (~> 1.0.0)
   rcov
   shoulda
