@@ -18,7 +18,7 @@ module OmniAuth
           :first_name   => raw_info["first_name"],
           :last_name    => raw_info["last_name"],
           :email        => raw_info["active_email"],
-          :birth_date   => raw_info["birth_date"] ),
+          :birth_date   => raw_info["birth_date"],
           :company_name => raw_info["company_name"],
           :image        => raw_info["photo_urls"]["large"],
           :url          => "http://www.xing.com/profile/#{raw_info["page_name"]}",
