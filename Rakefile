@@ -12,14 +12,16 @@ end
 require 'rake'
 
 require 'jeweler'
+require './lib/omniauth-xing/version.rb'
 Jeweler::Tasks.new do |gem|
-  gem.name = "omniauth-xing"
-  gem.homepage = "http://github.com/roccoblues/omniauth-xing"
-  gem.license = "MIT"
-  gem.summary = %Q{XING strategy for OmniAuth.}
+  gem.name        = "omniauth-xing"
+  gem.homepage    = "http://github.com/roccoblues/omniauth-xing"
+  gem.license     = "MIT"
+  gem.summary     = %Q{XING strategy for OmniAuth.}
   gem.description = %Q{XING strategy for OmniAuth.}
-  gem.email = "dennis@blogma.de"
-  gem.authors = ["Dennis Schoen"]
+  gem.email       = "dennis@blogma.de"
+  gem.authors     = ["Dennis Schoen"]
+  gem.version     = Omniauth::Xing::VERSION
   gem.add_dependency 'omniauth-oauth', '~> 1.0.0'
 end
 Jeweler::RubygemsDotOrgTasks.new
