@@ -13,15 +13,14 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "omniauth-xing"
   gem.homepage = "http://github.com/roccoblues/omniauth-xing"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{XING strategy for OmniAuth.}
+  gem.description = %Q{XING strategy for OmniAuth.}
   gem.email = "dennis@blogma.de"
-  gem.authors = ["Dennis Schön"]
-  # dependencies defined in Gemfile
+  gem.authors = ["Dennis Schoen"]
+  gem.add_dependency 'omniauth-oauth', '~> 1.0.0'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
