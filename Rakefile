@@ -22,8 +22,6 @@ Jeweler::Tasks.new do |gem|
   gem.email       = "dennis@blogma.de"
   gem.authors     = ["Dennis Schoen"]
   gem.version     = Omniauth::Xing::VERSION
-  gem.add_dependency 'omniauth-oauth', '~> 1.0.0'
-  gem.add_dependency 'multi_json'
   gem.files.exclude 'Gemfile.lock', 'omniauth-xing.gemspec'
 end
 Jeweler::RubygemsDotOrgTasks.new
