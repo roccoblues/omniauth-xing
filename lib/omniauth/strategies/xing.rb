@@ -7,10 +7,11 @@ module OmniAuth
       args [:consumer_key, :consumer_secret]
 
       option :client_options, {
-        :access_token_path => '/v1/access_token',
-        :authorize_path => '/v1/authorize',
-        :request_token_path => '/v1/request_token/',
-        :site => 'https://api.xing.com'
+        :access_token_path  => '/v1/access_token',
+        :authorize_path     => '/v1/authorize',
+        :request_token_path => '/v1/request_token',
+        :site               => 'https://api.xing.com',
+        :scheme             => :body,
       }
 
       info do
@@ -18,10 +19,8 @@ module OmniAuth
           :first_name   => raw_info["first_name"],
           :last_name    => raw_info["last_name"],
           :email        => raw_info["active_email"],
-          :birth_date   => raw_info["birth_date"],
-          :company_name => raw_info["company_name"],
           :image        => raw_info["photo_urls"]["large"],
-          :url          => "http://www.xing.com/profile/#{raw_info["page_name"]}",
+          :url          => raw_info["permalink"],
         }
       end
 
