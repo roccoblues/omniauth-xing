@@ -11,7 +11,6 @@ module OmniAuth
         :authorize_path     => '/v1/authorize',
         :request_token_path => '/v1/request_token',
         :site               => 'https://api.xing.com',
-        :scheme             => :body,
       }
 
       info do
