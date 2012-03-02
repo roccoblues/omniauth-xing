@@ -6,3 +6,4 @@ doc
 pkg
 .DS_Store
 vendor/bundle
+.rbenv-version
