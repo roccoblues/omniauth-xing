@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "omniauth-xing"
-  s.version = "0.1.2"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dennis Schoen"]
-  s.date = "2012-03-01"
+  s.date = "2012-03-02"
   s.description = "XING strategy for OmniAuth."
   s.email = "dennis@blogma.de"
   s.extra_rdoc_files = [
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/roccoblues/omniauth-xing"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.12"
+  s.rubygems_version = "1.8.11"
   s.summary = "XING strategy for OmniAuth."
 
   if s.respond_to? :specification_version then
