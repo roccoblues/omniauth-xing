@@ -1,4 +1,4 @@
-# OmniAuth GitHub
+# OmniAuth XING
 
 This gem contains the XING strategy for OmniAuth.
 
