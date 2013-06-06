@@ -20,9 +20,9 @@ module OmniAuth
           :email        => raw_info["active_email"],
           :image        => raw_info["photo_urls"]["large"],
           :url          => raw_info["permalink"],
-          :name         => raw_info["first_name"] + " " + raw_info["last_name"],
+          :name         => raw_info["display_name"],
           :urls         => {
-            'Website' => raw_info["permalink"]
+            'public_profile' => raw_info["permalink"]
           }
         }
       end
