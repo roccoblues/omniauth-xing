@@ -7,3 +7,4 @@ pkg
 .DS_Store
 vendor/bundle
 .rbenv-version
+.ruby-version
