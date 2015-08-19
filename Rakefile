@@ -19,7 +19,7 @@ Jeweler::Tasks.new do |gem|
   gem.license     = "MIT"
   gem.summary     = %Q{XING strategy for OmniAuth.}
   gem.description = %Q{XING strategy for OmniAuth.}
-  gem.email       = "dennis@blogma.de"
+  gem.email       = "mail@dennis-schoen.de"
   gem.authors     = ["Dennis Schoen"]
   gem.version     = Omniauth::Xing::VERSION
   gem.files.exclude 'Gemfile.lock', 'omniauth-xing.gemspec'

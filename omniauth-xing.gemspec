@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.authors = ["Dennis Schoen"]
   s.date = "2015-08-19"
   s.description = "XING strategy for OmniAuth."
-  s.email = "dennis@blogma.de"
+  s.email = "mail@dennis-schoen.de"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -58,4 +58,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<test-unit>, ["~> 1"])
   end
 end
-

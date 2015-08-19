@@ -21,7 +21,7 @@ You will obviously have to put in your key and secret, which you get when you re
 
   (The MIT License)
 
-  Copyright (c) 2011 Dennis Schoen &lt;dennis@blogma.de&gt;
+  Copyright (c) 2015 Dennis Schoen &lt;mail@dennis-schoen.de&gt;
 
   Permission is hereby granted, free of charge, to any person obtaining
   a copy of this software and associated documentation files (the
