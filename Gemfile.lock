@@ -59,6 +59,3 @@ DEPENDENCIES
   multi_json
   omniauth-oauth (~> 1.0)
   test-unit (~> 1)
-
-BUNDLED WITH
-   1.10.5
