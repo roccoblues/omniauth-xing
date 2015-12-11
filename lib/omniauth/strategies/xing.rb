@@ -18,7 +18,7 @@ module OmniAuth
           :first_name   => raw_info["first_name"],
           :last_name    => raw_info["last_name"],
           :email        => raw_info["active_email"],
-          :image        => raw_info["photo_urls"]["large"],
+          :image        => raw_info["photo_urls"]["size_128x128"],
           :url          => raw_info["permalink"],
           :name         => raw_info["display_name"],
           :urls         => {
