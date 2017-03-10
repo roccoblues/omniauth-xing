@@ -30,8 +30,8 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.summary = "XING strategy for OmniAuth."
 
-  s.add_runtime_dependency "multi_json", "~> 1.12"
-  s.add_runtime_dependency "omniauth-oauth", "~> 1.1"
+  s.add_runtime_dependency "multi_json", ">= 0"
+  s.add_runtime_dependency "omniauth-oauth", "~> 1.0"
 
   s.add_development_dependency "bundler", "~> 1.3"
   s.add_development_dependency "rake", "~> 12.0"
