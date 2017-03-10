@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
     "lib/omniauth-xing.rb",
     "lib/omniauth-xing/version.rb",
     "lib/omniauth/strategies/xing.rb",
-    "test/omniauth/strategies/test_xing.rb"
+    "test/test_omniauth-xing.rb"
   ]
   s.homepage = "http://github.com/roccoblues/omniauth-xing"
   s.licenses = ["MIT"]

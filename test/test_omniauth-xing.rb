@@ -1,9 +1,10 @@
 require 'minitest/autorun'
 require 'omniauth-xing'
 
-class TestXing < Minitest::Test
+class TestOmniauthXing < Minitest::Test
+
   def setup
-    @strategy = ::OmniAuth::Strategies::Xing.new(nil, {})
+    @strategy = OmniAuth::Strategies::Xing.new(nil, {})
   end
 
   def test_client_options
@@ -12,4 +13,5 @@ class TestXing < Minitest::Test
     assert_equal @strategy.options.client_options.authorize_path, '/v1/authorize'
     assert_equal @strategy.options.client_options.request_token_path, '/v1/request_token'
   end
+
 end
