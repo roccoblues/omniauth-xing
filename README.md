@@ -17,6 +17,10 @@ Once these are in, you need to add the following to your `config/initializers/om
 
 You will obviously have to put in your key and secret, which you get when you register your app with XING.
 
+## Code Status
+
+[![Build Status](https://travis-ci.org/roccoblues/omniauth-xing.svg?branch=master)](https://travis-ci.org/roccoblues/omniauth-xing)
+
 ## License
 
   (The MIT License)
