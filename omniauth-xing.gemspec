@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
   s.authors = ["Dennis Schoen"]
-  s.date = "2015-12-11"
+  s.date = "2017-03-10"
   s.description = "XING strategy for OmniAuth."
   s.email = "mail@dennis-schoen.de"
   s.extra_rdoc_files = [
