@@ -8,3 +8,4 @@ pkg
 vendor/bundle
 .rbenv-version
 .ruby-version
+Gemfile.lock

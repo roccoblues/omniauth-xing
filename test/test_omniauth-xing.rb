@@ -1,6 +1,7 @@
-require 'helper'
+require 'minitest/autorun'
+require 'omniauth-xing'
 
-class TestOmniauthXing < Test::Unit::TestCase
+class TestOmniauthXing < Minitest::Test
 
   def setup
     @strategy = OmniAuth::Strategies::Xing.new(nil, {})

@@ -1,36 +1,10 @@
-# encoding: utf-8
+require "bundler/gem_tasks"
+require "rake/testtask"
 
-require 'rubygems'
-require 'bundler'
-begin
-  Bundler.setup(:default, :development)
-rescue Bundler::BundlerError => e
-  $stderr.puts e.message
-  $stderr.puts "Run `bundle install` to install missing gems"
-  exit e.status_code
-end
-require 'rake'
-
-require 'jeweler'
-require './lib/omniauth-xing/version.rb'
-Jeweler::Tasks.new do |gem|
-  gem.name        = "omniauth-xing"
-  gem.homepage    = "http://github.com/roccoblues/omniauth-xing"
-  gem.license     = "MIT"
-  gem.summary     = %Q{XING strategy for OmniAuth.}
-  gem.description = %Q{XING strategy for OmniAuth.}
-  gem.email       = "mail@dennis-schoen.de"
-  gem.authors     = ["Dennis Schoen"]
-  gem.version     = Omniauth::Xing::VERSION
-  gem.files.exclude 'Gemfile.lock', 'omniauth-xing.gemspec'
-end
-Jeweler::RubygemsDotOrgTasks.new
-
-require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
-  test.libs << 'lib' << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
+  test.libs << 'lib'
+  test.libs << 'test'
+  test.test_files = FileList['test/**/test_*.rb']
 end
 
 task :default => :test
